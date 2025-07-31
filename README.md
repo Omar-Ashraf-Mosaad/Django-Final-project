@@ -24,6 +24,7 @@ pip install -U -r requirements.txt
 
 # 5. Apply database migrations
 python3 manage.py makemigrations
+
 python3 manage.py migrate
 
 # 6. Run the development server
